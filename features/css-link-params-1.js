@@ -19,7 +19,11 @@ export default {
 		properties: ['background-image'],
 		'url() with param()': {
 			link: '#setting-url',
-			tests: 'url("http://example.com/image.svg" param(--bg-color white))',
+			tests: 'url("https://example.com/image.svg" param(--bg-color: white))',
+			tests: 'url("https://example.com/image.svg" param(--bg-color <color>: white))',
+			tests: 'url("https://example.com/image.svg" param(--size type(<length> | <percentage>): 100px))',
+			tests: 'url("https://example.com/image.svg" param(color: firebrick))',
+			tests: 'url("https://example.com/image.svg" param(accent-color: firebrick))',
 		}
 	}
 };
