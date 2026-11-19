@@ -8,10 +8,12 @@ export default {
 			link: '#display-modes',
 			tests: [
 				'(display-mode)',
+				'(display-mode: application)',
 				'(display-mode: fullscreen)',
 				'(display-mode: standalone)',
 				'(display-mode: minimal-ui)',
 				'(display-mode: browser)',
+				'(display-mode: picture-in-picture)',
 			],
 		},
 		'prefers-reduced-motion': {
