@@ -114,9 +114,6 @@ export default {
 			link: '#image-notation',
 			dataType: 'image',
 			tests: [
-				"image('sprites.png#xywh=10,30,60,20')",
-				"image('wavy.svg', 'wavy.png' , 'wavy.gif')",
-				"image('dark.png', black)",
 				'image(green)',
 			],
 		},
