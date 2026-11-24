@@ -28,6 +28,20 @@ export default {
 				'1s both infinite my-animation --animation-timeline'
 			],
 		},
+		'animation-delay-start': {
+			link: '#propdef-animation-delay-start',
+			tests: [
+				'0s',
+				'1s',
+				'-1s',
+				'100ms',
+				'1s, 2s',
+			],
+		},
+		'animation-delay-end': {
+			link: '#propdef-animation-delay-end',
+			tests: ['0s', '1s', '100ms', '1s, 2s'],
+		},
 	},
 	globals: {
 		CSSAnimation: {
