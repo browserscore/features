@@ -215,5 +215,17 @@ export default {
 			link: '#stroke-opacity',
 			tests: ['0.5', '45%'],
 		},
+		'stroke-alignment': {
+			link: '#stroke-alignment',
+			tests: ['center', 'inner', 'outer'],
+		},
+		'stroke-dashadjust': {
+			link: '#stroke-dashadjust',
+			tests: ['none', 'stretch', 'compress', 'stretch dashes', 'compress gaps', 'stretch gaps'],
+		},
+		'stroke-dashcorner': {
+			link: '#stroke-dashcorner',
+			tests: ['none', '10px', '1em'],
+		},
 	},
 };
