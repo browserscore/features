@@ -33,5 +33,11 @@ export default {
 			],
 			// TODO @else media(min-width: 0px) {} @else {}
 		},
+		'@supports-condition': {
+			link: '#at-ruledef-supports-condition',
+			preludeRequired: true,
+			contents: 'display: grid',
+			preludes: ['--grid', '--has-gap'],
+		},
 	},
 };
