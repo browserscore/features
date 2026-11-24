@@ -172,5 +172,101 @@ export default {
 				},
 			],
 		},
+		'border-top-clip': {
+			link: '#propdef-border-top-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-right-clip': {
+			link: '#propdef-border-right-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-bottom-clip': {
+			link: '#propdef-border-bottom-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-left-clip': {
+			link: '#propdef-border-left-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-block-start-clip': {
+			link: '#propdef-border-block-start-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-block-end-clip': {
+			link: '#propdef-border-block-end-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-inline-start-clip': {
+			link: '#propdef-border-inline-start-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-inline-end-clip': {
+			link: '#propdef-border-inline-end-clip',
+			tests: [
+				'none',
+				'10px',
+				'10%',
+				'1fr',
+				'10px 1fr',
+				'10px 20px 1fr 5%',
+			],
+		},
+		'border-block-clip': {
+			link: '#propdef-border-block-clip',
+			tests: ['none', '10px', '10%', '10px 1fr 20px'],
+		},
+		'border-inline-clip': {
+			link: '#propdef-border-inline-clip',
+			tests: ['none', '10px', '10%', '10px 1fr 20px'],
+		},
 	},
 };
