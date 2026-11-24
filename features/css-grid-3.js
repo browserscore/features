@@ -36,5 +36,15 @@ export default {
 				'ordered pack',
 			],
 		},
+		'fit-tolerance': {
+			link: '#propdef-fit-tolerance',
+			tests: [
+				'normal',
+				'0',
+				'10px',
+				'10%',
+				'infinite',
+			],
+		},
 	},
 };
