@@ -97,10 +97,6 @@ export default {
 				'"wght" 2, "ital" 1.2',
 			],
 		},
-		'font-feature-settings': {
-			link: '#font-feature-settings-prop',
-			tests: ['normal', "'swsh' 2"],
-		},
 		'font-language-override': {
 			link: '#font-language-override',
 			tests: ['normal', "'SRB'"],
@@ -133,6 +129,27 @@ export default {
 		'font-palette': {
 			link: '#font-palette-prop',
 			tests: ['normal', 'light', 'dark', '--custom-palette'],
+		},
+		'font-width': {
+			link: '#font-width-prop',
+			tests: [
+				'normal',
+				'50%',
+				'100%',
+				'200%',
+				'ultra-condensed',
+				'extra-condensed',
+				'condensed',
+				'semi-condensed',
+				'semi-expanded',
+				'expanded',
+				'extra-expanded',
+				'ultra-expanded',
+			],
+		},
+		'font-synthesis-position': {
+			link: '#font-synthesis-position',
+			tests: ['auto', 'none'],
 		},
 	},
 	atrules: {
@@ -267,6 +284,19 @@ export default {
 				'fontFamily',
 				'basePalette',
 				'overrideColors',
+			],
+		},
+	},
+	values: {
+		properties: ['font-palette'],
+		'palette-mix()': {
+			link: '#font-palette-mix',
+			tests: [
+				'palette-mix(in lch, normal, dark)',
+				'palette-mix(in lch, light 30%, dark)',
+				'palette-mix(in lch, light 30%, dark 70%)',
+				'palette-mix(in srgb, --custom 50%, dark)',
+				'palette-mix(in oklab, normal, light, dark)',
 			],
 		},
 	},
