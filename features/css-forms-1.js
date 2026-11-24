@@ -95,5 +95,13 @@ export default {
 			link: '#meter-values',
 			tests: [':optimal-value'],
 		},
+		'::field-content': {
+			link: '#selectordef-field-content',
+			tests: ['::field-content'],
+		},
+		'::reveal-icon': {
+			link: '#selectordef-reveal-icon',
+			tests: ['::reveal-icon'],
+		},
 	},
 };
