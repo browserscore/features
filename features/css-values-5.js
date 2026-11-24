@@ -578,5 +578,57 @@ export default {
 				'url("image.png" crossorigin(anonymous) integrity("8f6846e1bad406933f9122b201c6de07") referrerpolicy(no-referrer))',
 			],
 		},
+		'cycle()': {
+			link: '#cycle-notation',
+			properties: ['width', 'color'],
+			tests: [
+				'cycle(100px, 200px)',
+				'cycle(100px, 50%, 10em)',
+				'cycle(red, green, blue)',
+				'cycle(calc(1px + 2px), 3px)',
+			],
+		},
+		'calc-interpolate()': {
+			link: '#calc-interpolate',
+			properties: ['width'],
+			tests: [
+				'calc-interpolate(0.5, 0: 100px, 1: 200px)',
+				'calc-interpolate(50%, 0%: 100px, 100%: 200px)',
+				'calc-interpolate(scroll(), 0: 100px, 1: 200px)',
+				'calc-interpolate(view(), 0: 100px, 0.5: 150px, 1: 200px)',
+				'calc-interpolate(0.5 by ease-in, 0: 100px, 1: 200px)',
+				'calc-interpolate(0.5, 0: 100px, ease-in, 1: 200px)',
+				'calc-interpolate(0.5, 0: 100px, 1: calc(100px + 10%))',
+			],
+		},
+		'color-interpolate()': {
+			link: '#color-interpolate',
+			properties: [
+				'color',
+				'background-color',
+				'border-color',
+				'text-decoration-color',
+				'column-rule-color',
+			],
+			tests: [
+				'color-interpolate(0.5, 0: red, 1: blue)',
+				'color-interpolate(50%, 0%: red, 100%: blue)',
+				'color-interpolate(scroll(), 0: red, 1: blue)',
+				'color-interpolate(view(), 0: red, 0.5: white, 1: blue)',
+				'color-interpolate(0.5 in oklch, 0: red, 1: blue)',
+				'color-interpolate(0.5 by ease-in, 0: red, 1: blue)',
+				'color-interpolate(0.5, 0: red, in oklab, 1: blue)',
+			],
+		},
+		'transform-interpolate()': {
+			link: '#transform-interpolate',
+			properties: ['transform-function'],
+			tests: [
+				'transform-interpolate(0.5, 0: translate(0), 1: translate(100px))',
+				'transform-interpolate(50%, 0%: rotate(0deg), 100%: rotate(90deg))',
+				'transform-interpolate(scroll(), 0: scale(1), 1: scale(2))',
+				'transform-interpolate(0.5 by ease-in, 0: translate(0), 1: translate(100px))',
+			],
+		},
 	},
 };
