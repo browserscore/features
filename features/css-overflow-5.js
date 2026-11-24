@@ -19,6 +19,10 @@ export default {
 				'after',
 			],
 		},
+		'scroll-axis-lock': {
+			link: '#propdef-scroll-axis-lock',
+			tests: ['auto', 'none'],
+		},
 	},
 	selectors: {
 		'::scroll-button()': {
@@ -48,6 +52,23 @@ export default {
 		':target-current': {
 			link: '#active-scroll-marker',
 			tests: [':target-current'],
+		},
+		'::nth-fragment()': {
+			link: '#selectordef-nth-fragment',
+			tests: [
+				'::nth-fragment(1)',
+				'::nth-fragment(2n)',
+				'::nth-fragment(odd)',
+				'::nth-fragment(n+2)',
+			],
+		},
+		':target-before': {
+			link: '#selectordef-target-before',
+			tests: [':target-before'],
+		},
+		':target-after': {
+			link: '#selectordef-target-after',
+			tests: [':target-after'],
 		},
 	},
 };
