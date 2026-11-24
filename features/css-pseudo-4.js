@@ -78,7 +78,11 @@ export default {
 				'::details-content:focus-visible',
 				'::details-content:focus-within',
 			],
-		}
+		},
+		'::interest-button': {
+			link: '#selectordef-interest-button',
+			tests: ['::interest-button'],
+		},
 	},
 	globals: {
 		Element: {
