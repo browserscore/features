@@ -87,5 +87,17 @@ export default {
 			link: '#text-shadow-property',
 			tests: ['1px 2px 3px 4px black'],
 		},
+		'text-emphasis-skip': {
+			link: '#propdef-text-emphasis-skip',
+			tests: [
+				'spaces',
+				'punctuation',
+				'symbols',
+				'narrow',
+				'spaces punctuation',
+				'spaces punctuation symbols narrow',
+				'symbols narrow',
+			],
+		},
 	},
 };
