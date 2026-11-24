@@ -7,7 +7,7 @@ export default {
 		AnimationTimeline: {
 			link: '#the-animationtimeline-interface',
 			mdnGroup: 'DOM',
-			members: ['currentTime', 'duration'],
+			members: ['duration'],
 			methods: ['play'],
 		},
 		AnimationEffect: {
