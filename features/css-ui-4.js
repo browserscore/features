@@ -163,5 +163,31 @@ export default {
 			link: '#pointer-events-control',
 			tests: ['auto', 'none']
 		},
+		'caret-animation': {
+			link: '#propdef-caret-animation',
+			tests: ['auto', 'manual'],
+		},
+		'interest-delay-start': {
+			link: '#propdef-interest-delay-start',
+			tests: ['normal', '0s', '1s', '100ms'],
+		},
+		'interest-delay-end': {
+			link: '#propdef-interest-delay-end',
+			tests: ['normal', '0s', '1s', '100ms'],
+		},
+		'interest-delay': {
+			link: '#propdef-interest-delay',
+			tests: [
+				'normal',
+				'1s',
+				'1s 2s',
+				'normal 1s',
+				'100ms normal',
+			],
+		},
+		'window-drag': {
+			link: '#propdef-window-drag',
+			tests: ['none', 'move'],
+		},
 	},
 };
