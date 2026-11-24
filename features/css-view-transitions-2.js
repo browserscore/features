@@ -27,6 +27,10 @@ export default {
 				'auto',
 			],
 		},
+		'view-transition-scope': {
+			link: '#propdef-view-transition-scope',
+			tests: ['none', 'all'],
+		},
 	},
 	selectors: {
 		':active-view-transition': {
