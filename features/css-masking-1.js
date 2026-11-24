@@ -204,5 +204,9 @@ export default {
 			link: '#the-mask-type',
 			tests: ['luminance', 'alpha'],
 		},
+		'mask-border-mode': {
+			link: '#propdef-mask-border-mode',
+			tests: ['luminance', 'alpha'],
+		},
 	},
 };
