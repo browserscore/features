@@ -12,5 +12,15 @@ export default {
 			link: '#text-combine-upright',
 			tests: ['digits 2'],
 		},
+		'glyph-orientation-vertical': {
+			link: '#propdef-glyph-orientation-vertical',
+			tests: [
+				'auto',
+				'0deg',
+				'90deg',
+				'0',
+				'90',
+			],
+		},
 	},
 };
