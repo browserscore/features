@@ -67,9 +67,6 @@ export default {
 		':checked': {
 			link: '#checked',
 		},
-		':indeterminate': {
-			link: '#indeterminate',
-		},
 		':root': {
 			link: '#root-pseudo',
 		},
