@@ -18,6 +18,16 @@ export default {
 			],
 			// TODO declarations and rules inside @function
 		},
+		'@apply': {
+			link: '#apply-rule',
+			contents: false,
+			preludeRequired: true,
+			preludes: ['--foo', '--foo()'],
+		},
+		'@private': {
+			link: '#private-rule',
+			contents: '--a: 1',
+		},
 	},
 	globals: {
 		CSSFunctionRule: {
