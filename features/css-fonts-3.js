@@ -189,10 +189,6 @@ export default {
 					link: '#font-rend-desc',
 					values: ['normal', "'c2sc'", "'smcp' on", "'liga' off", "'smcp', 'swsh' 2"],
 				},
-				'font-variation-settings': {
-					link: '#font-rend-desc',
-					values: ['normal', "'swsh' 2"],
-				},
 				'unicode-range': {
 					link: '#unicode-range-desc',
 					values: ['U+416', 'U+0-7F', 'U+A5, U+4E00-9FFF', 'U+30??'],
