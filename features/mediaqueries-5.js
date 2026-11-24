@@ -101,4 +101,18 @@ export default {
 			tests: ['(video-dynamic-range)', '(video-dynamic-range: standard)', '(video-dynamic-range: high)'],
 		},
 	},
+	atrules: {
+		'@custom-media': {
+			link: '#custom-mq',
+			contents: false,
+			preludeRequired: true,
+			preludes: [
+				'--narrow-window (max-width: 30em)',
+				'--foo (min-width: 30em) and (max-width: 50em)',
+				'--always true',
+				'--never false',
+				'--screen-wide screen and (min-width: 60em)',
+			],
+		},
+	},
 };
