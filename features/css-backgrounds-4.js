@@ -130,5 +130,45 @@ export default {
 			specLink: '#the-background-clip',
 			tests: ['text', 'border-area'],
 		},
+		'background-repeat-x': {
+			link: '#propdef-background-repeat-x',
+			tests: [
+				'repeat',
+				'no-repeat',
+				'space',
+				'round',
+				'repeat, no-repeat',
+			],
+		},
+		'background-repeat-y': {
+			link: '#propdef-background-repeat-y',
+			tests: [
+				'repeat',
+				'no-repeat',
+				'space',
+				'round',
+				'repeat, no-repeat',
+			],
+		},
+		'background-repeat-block': {
+			link: '#propdef-background-repeat-block',
+			tests: [
+				'repeat',
+				'no-repeat',
+				'space',
+				'round',
+				'repeat, no-repeat',
+			],
+		},
+		'background-repeat-inline': {
+			link: '#propdef-background-repeat-inline',
+			tests: [
+				'repeat',
+				'no-repeat',
+				'space',
+				'round',
+				'repeat, no-repeat',
+			],
+		},
 	},
 };
