@@ -85,5 +85,15 @@ export default {
 			link: '#sizing-values',
 			tests: ['stretch', 'fit-content', 'contain'],
 		},
+		'frame-sizing': {
+			link: '#propdef-frame-sizing',
+			tests: [
+				'auto',
+				'content-width',
+				'content-height',
+				'content-block-size',
+				'content-inline-size',
+			],
+		},
 	},
 };
