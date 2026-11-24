@@ -28,34 +28,6 @@ export default {
 				'none',
 			],
 		},
-		'column-rule-outset': {
-			link: '#propdef-column-rule-outset',
-			tests: [
-				'10px',
-				'5%',
-			],
-		},
-		'row-rule-outset': {
-			link: '#propdef-row-rule-outset',
-			tests: [
-				'10px',
-				'5%',
-			],
-		},
-		'rule-outset': {
-			link: '#propdef-rule-outset',
-			tests: [
-				'10px',
-				'5%',
-			],
-		},
-		'rule-paint-order': {
-			link: '#propdef-rule-paint-order',
-			tests: [
-				'row-over-column',
-				'column-over-row',
-			],
-		},
 		'column-rule-color': {
 			link: '#propdef-column-rule-color',
 			dataType: 'color',
@@ -272,6 +244,134 @@ export default {
 				'repeat(auto, 10px solid red, 5% dotted yellow) 5% dotted lime repeat(2, 10px solid red, 5% dotted yellow)',
 				'10px solid red repeat(2, 5% dotted yellow) repeat(auto, 10px solid red, 5% dotted yellow) 5% dotted yellow repeat(2, 10px solid red, 5% dotted yellow)',
 			],
+		},
+		'column-rule-inset-cap-start': {
+			link: '#propdef-column-rule-inset-cap-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset-cap-end': {
+			link: '#propdef-column-rule-inset-cap-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset-cap': {
+			link: '#propdef-column-rule-inset-cap',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'column-rule-inset-junction-start': {
+			link: '#propdef-column-rule-inset-junction-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset-junction-end': {
+			link: '#propdef-column-rule-inset-junction-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset-junction': {
+			link: '#propdef-column-rule-inset-junction',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'column-rule-inset-start': {
+			link: '#propdef-column-rule-inset-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset-end': {
+			link: '#propdef-column-rule-inset-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'column-rule-inset': {
+			link: '#propdef-column-rule-inset',
+			tests: [
+				'10px',
+				'10px 20px',
+				'5% 10%',
+				'0 0',
+				'10px / 20px',
+				'10px 5px / 20px 15px',
+			],
+		},
+		'column-rule-visibility-items': {
+			link: '#propdef-column-rule-visibility-items',
+			tests: ['normal', 'all', 'around', 'between'],
+		},
+		'row-rule-inset-cap-start': {
+			link: '#propdef-row-rule-inset-cap-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset-cap-end': {
+			link: '#propdef-row-rule-inset-cap-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset-cap': {
+			link: '#propdef-row-rule-inset-cap',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'row-rule-inset-junction-start': {
+			link: '#propdef-row-rule-inset-junction-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset-junction-end': {
+			link: '#propdef-row-rule-inset-junction-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset-junction': {
+			link: '#propdef-row-rule-inset-junction',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'row-rule-inset-start': {
+			link: '#propdef-row-rule-inset-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset-end': {
+			link: '#propdef-row-rule-inset-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'row-rule-inset': {
+			link: '#propdef-row-rule-inset',
+			tests: [
+				'10px',
+				'10px 20px',
+				'5% 10%',
+				'0 0',
+				'10px / 20px',
+				'10px 5px / 20px 15px',
+			],
+		},
+		'row-rule-visibility-items': {
+			link: '#propdef-row-rule-visibility-items',
+			tests: ['normal', 'all', 'around', 'between'],
+		},
+		'rule-inset-cap': {
+			link: '#propdef-rule-inset-cap',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'rule-inset-junction': {
+			link: '#propdef-rule-inset-junction',
+			tests: ['10px', '10px 20px', '5% 10%', '0 0'],
+		},
+		'rule-inset-start': {
+			link: '#propdef-rule-inset-start',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'rule-inset-end': {
+			link: '#propdef-rule-inset-end',
+			tests: ['0', '10px', '5%', '-10px'],
+		},
+		'rule-inset': {
+			link: '#propdef-rule-inset',
+			tests: [
+				'10px',
+				'10px 20px',
+				'5% 10%',
+				'0 0',
+				'10px / 20px',
+			],
+		},
+		'rule-visibility-items': {
+			link: '#propdef-rule-visibility-items',
+			tests: ['normal', 'all', 'around', 'between'],
+		},
+		'rule-overlap': {
+			link: '#propdef-rule-overlap',
+			tests: ['row-over-column', 'column-over-row'],
 		},
 	},
 };
