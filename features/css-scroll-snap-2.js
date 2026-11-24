@@ -11,6 +11,10 @@ export default {
 				'auto',
 			],
 		},
+		'scroll-initial-target': {
+			link: '#propdef-scroll-initial-target',
+			tests: ['none', 'nearest'],
+		},
 	},
 	selectors: {
 		':snapped': {
