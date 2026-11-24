@@ -131,7 +131,6 @@ export default {
 				'preserve',
 				'preserve-breaks',
 				'preserve-spaces',
-				'break-spaces',
 				'wrap',
 				'none',
 				'discard-before',
@@ -177,10 +176,6 @@ export default {
 				'ideographic-space auto-phrase',
 			],
 		},
-		'word-spacing': {
-			link: '#word-spacing-property',
-			tests: ['1%'],
-		},
 		'wrap-after': {
 			link: '#wrap-before',
 			tests: [
@@ -206,6 +201,10 @@ export default {
 		'wrap-inside': {
 			link: '#wrap-inside',
 			tests: ['auto', 'avoid'],
+		},
+		'text-autospace-size': {
+			link: '#propdef-text-autospace-size',
+			tests: ['0', '0.125', '0.25', '1'],
 		},
 	},
 };
