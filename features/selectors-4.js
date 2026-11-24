@@ -255,5 +255,9 @@ export default {
 			mdn: 'Attribute_selectors',
 			tests: ['[att$=val s]', '[att$="val" s]', '[att$=val S]', '[att$="val" S]'],
 		},
+		':unchecked': {
+			link: '#unchecked-pseudo',
+			tests: [':unchecked'],
+		},
 	},
 };
