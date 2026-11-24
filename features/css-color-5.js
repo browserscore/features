@@ -73,4 +73,31 @@ export default {
 			members: ['name', 'src', 'renderingIntent', 'components'],
 		},
 	},
+	atrules: {
+		'@color-profile': {
+			link: '#at-profile',
+			preludeRequired: true,
+			contents: 'src: url(profile.icc)',
+			preludes: ['--swop5c', 'device-cmyk'],
+			descriptors: {
+				src: {
+					link: '#descdef-color-profile-src',
+					values: ['url(profile.icc)'],
+				},
+				components: {
+					link: '#descdef-color-profile-components',
+					values: ['cyan, magenta, yellow, black'],
+				},
+				'rendering-intent': {
+					link: '#descdef-color-profile-rendering-intent',
+					values: [
+						'relative-colorimetric',
+						'absolute-colorimetric',
+						'perceptual',
+						'saturation',
+					],
+				},
+			},
+		},
+	},
 };
